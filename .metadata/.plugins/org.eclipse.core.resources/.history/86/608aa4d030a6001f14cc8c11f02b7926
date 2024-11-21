@@ -1,0 +1,18 @@
+package pro_statement_1;
+
+public class Sum_of_N {
+	
+	public static void S_N(int n) {
+			int sum;
+			sum=(n*(n+1)/2);
+			System.out.println("--------------------------------");
+			System.out.println("Sum of n natural numbers is :");
+		}
+
+	public static void main(String[] args) {
+		Sum_of_N.S_N(2);
+		
+
+	}
+
+}
